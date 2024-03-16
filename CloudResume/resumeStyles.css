@@ -1,6 +1,104 @@
-class
+/* Landing Explore Page  */
+/* About Me  */
+/* --------------------Resume------------------- */
 {
-
-
+  font-size:10pt;
+  font-weight:bold;
+  font-style:italic;
+  margin-top:0;
+  margin-bottom:0;
 }
 
+
+.resumeName,.resumeEmail,.resumeAddress
+{
+  font-size:20pt;
+  margin-top:0;
+  margin-bottom:0;  
+}
+
+.resumeSection
+{
+  font-size:12pt;
+  font-weight:bold;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.universities
+{
+  font-size:12pt;
+  font-weight:bold;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.location
+{
+  font-size:10pt;
+  font-weight:bold;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.universityProgram
+{
+  font-size:11pt;
+  font-weight:bold;
+  font-style:italic;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.time
+{
+  font-size:10pt;
+  font-style:italic;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.courseworkHeader
+{
+  font-size:10pt;
+  font-weight:bold;
+  font-style:italic;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.generalResumeInfo
+{
+  font-size:10.5pt;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.company
+{
+  font-size:10pt;
+  font-weight:bold;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.position
+{
+  font-size:10pt;
+  font-weight:bold;
+  font-style:italic;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.resumeExperience
+{
+  font-size:11pt;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+
+/* Education  */
+/* Certifications  */
+/* Neet'O  */
