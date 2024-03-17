@@ -1,7 +1,19 @@
 /* Landing Explore Page  */
+.navigation-bar
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+.navigationItem
+{
+  display: inline;
+}
+
 /* About Me  */
 /* --------------------------------------------------------------------------------------------Resume------------------------------------------------------------------- */
-body
+
 {
   border:10px solid powderblue;
   margin: 400px;
