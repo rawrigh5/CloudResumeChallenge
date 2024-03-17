@@ -1,20 +1,19 @@
 /* Landing Explore Page  */
 /* About Me  */
-/* --------------------Resume------------------- */
+/* --------------------------------------------------------------------------------------------Resume------------------------------------------------------------------- */
+body
 {
-  font-size:10pt;
-  font-weight:bold;
-  font-style:italic;
-  margin-top:0;
-  margin-bottom:0;
+  border:10px solid powderblue;
+  margin: 400px;
 }
-
 
 .resumeName,.resumeEmail,.resumeAddress
 {
-  font-size:20pt;
+  font-size:10pt;
   margin-top:0;
-  margin-bottom:0;  
+  margin-bottom:0;
+  margin-right:5px;
+  margin-left:5px;
 }
 
 .resumeSection
@@ -23,6 +22,8 @@
   font-weight:bold;
   margin-top:0;
   margin-bottom:0;
+  margin-right:5px;
+  margin-left:5px;
 }
 
 .universities
@@ -31,6 +32,8 @@
   font-weight:bold;
   margin-top:0;
   margin-bottom:0;
+  margin-right:5px;
+  margin-left:5px;
 }
 
 .location
@@ -39,6 +42,8 @@
   font-weight:bold;
   margin-top:0;
   margin-bottom:0;
+  margin-right:5px;
+  margin-left:5px;
 }
 
 .universityProgram
@@ -48,6 +53,8 @@
   font-style:italic;
   margin-top:0;
   margin-bottom:0;
+  margin-right:5px;
+  margin-left:5px;
 }
 
 .time
@@ -56,6 +63,8 @@
   font-style:italic;
   margin-top:0;
   margin-bottom:0;
+  margin-right:5px;
+  margin-left:5px;
 }
 
 .courseworkHeader
@@ -65,6 +74,8 @@
   font-style:italic;
   margin-top:0;
   margin-bottom:0;
+  margin-right:5px;
+  margin-left:5px;
 }
 
 .generalResumeInfo
@@ -72,6 +83,8 @@
   font-size:10.5pt;
   margin-top:0;
   margin-bottom:0;
+  margin-right:5px;
+  margin-left:5px;
 }
 
 .company
@@ -80,6 +93,8 @@
   font-weight:bold;
   margin-top:0;
   margin-bottom:0;
+  margin-right:5px;
+  margin-left:5px;
 }
 
 .position
@@ -89,6 +104,8 @@
   font-style:italic;
   margin-top:0;
   margin-bottom:0;
+  margin-right:5px;
+  margin-left:5px;
 }
 
 .resumeExperience
@@ -96,9 +113,32 @@
   font-size:11pt;
   margin-top:0;
   margin-bottom:0;
+  margin-right:5px;
+  margin-left:5px;
+}
+.clearance
+{
+  font-size:11pt;
+  font-weight:bold;
+  margin-top:0;
+  margin-bottom:0;
+  margin-right:5px;
+  margin-left:5px;
+}
+
+.sixSigma,.osha10
+{
+  font-size:11pt;
+  font-weight:bold;
+  font-style:italic;
+  margin-top:0;
+  margin-bottom:0;
+  margin-right:5px;
+  margin-left:5px;
 }
 
 
-/* Education  */
-/* Certifications  */
-/* Neet'O  */
+
+/* ------------------------------------------------------------------------------------Education------------------------------------------------------------  */
+/* ------------------------------------------------------------------------------------Certifications------------------------------------------------  */
+/* ------------------------------------------------------------------------------------Neet'O------------------------------------------------------------------------  */
