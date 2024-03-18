@@ -1,23 +1,42 @@
-/* Landing Explore Page  */
-.navigation-bar
-{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  
+/* ------------------General CSS -------------- */
+
+/* CSS for navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
 }
-.navigationItem
-{
-  display: inline;
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* CSS for hiding content */
+.hidden {
+    display: none;
+}
+
 
 /* About Me  */
-/* --------------------------------------------------------------------------------------------Resume------------------------------------------------------------------- */
+/* ---------------------------------------Resume------------------------------------- */
 
-{
-  border:10px solid powderblue;
-  margin: 400px;
-}
+
 
 .resumeName,.resumeEmail,.resumeAddress
 {

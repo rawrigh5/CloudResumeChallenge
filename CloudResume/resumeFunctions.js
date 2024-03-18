@@ -1,5 +1,5 @@
 <script>
-    document.querySelectorAll('nav a').forEach(function(link) {
+    document.querySelectorAll('.navigation-bar a').forEach(function(link) {
         link.addEventListener('click', function(event) {
             event.preventDefault(); // Prevent default navigation behavior
 

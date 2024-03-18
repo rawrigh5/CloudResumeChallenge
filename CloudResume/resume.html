@@ -4,24 +4,23 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="resumeStyles.css">
-    <script src="resumeFunctions.js"></script>
 </head>
 
 <body id="cloudResumeBody">
 <!------------Navigation-------------------->
     <nav>
         <ul class ="navigation-bar">
-            <li class="navigationItem" id="defualtItem"><a href="explorePage">Explore</a></li>
-            <li class="navigationItem" id="defualtItem"><a href="aboutMePage">AboutMe</a></li>
-            <li class="navigationItem" id="defualtItem"><a href="resumePage">Resume</a></li>
-            <li class="navigationItem" id="defualtItem"><a href="certificationsPage">Certifications</a></li>
-            <li class="navigationItem" id="defualtItem"><a href="neet'OPage">Neet'O</a></li>
+            <li><a href="#explorePage">Explore</a></li>
+            <li><a href="#aboutMePage">AboutMe</a></li>
+            <li><a href="#resumePage">Resume</a></li>
+            <li><a href="#certificationsPage">Certifications</a></li>
+            <li><a href="#neet'OPage">Neet'O</a></li>
         </ul>
     </nav>
 </body>
     <div>
 <!----------------------------------------------------Landing Page Explore------------------------------------------->
-        <section class="explorePageClass" id="explorePage">
+        <section  id="explorePage" class="page">
             <div class="explorePageContent">
                 <h1 class="headerExplore">Hi I'm Rocky!</h1>
                 <h2 class="headerExploreTwo">Welcome to my world in the web</h2>
@@ -32,7 +31,7 @@
 
 <!-----------------------------------------------------About Me------------------------------------------------------>
 
-        <section class="aboutMeClass" id="aboutMePage">
+        <section id="aboutMePage" class="page hidden">
             <div class="aboutMeContent">
                 <h1 class="name">Rocky Wright</h1>
                 <img src="ResumeImages/Resume_Cover_Image.jpeg" alt="Cover Photo"
@@ -46,12 +45,12 @@
                     To discover and build upon my own capabilities while also giving a piece of what I've discovered throughout my life back to those who decide to discover more about me while exploring my website.
                     Thankyou and stay awhile
                 </p>
-            </div>
+            </div>  
         </section>
  
 <!------------------------------------------------------Resume-------------------------------------------------------->
 
-        <section class="resumeClass" id="resumePage">
+        <section id="resumePage" class="page hidden">
             <div class="resumeContent">
                 <h1 class="resumeName">Rockwell A. Wright (Rocky)</h1>
                 <h1 class="resumeEmail">rockywright2015@gmail.com</h1>
@@ -144,7 +143,7 @@
 
 <!------------------------------------------------------Education---------------------------------------------------->
 
-        <section class="educationClass" id="educationPage">
+        <section id="educationPage" class="page hidden">
             <div class="educationContent">
                 <h1 class="resumeSection">Eduction</h1>
     
@@ -163,7 +162,7 @@
 
 <!--------------------------------------------------Certifications---------------------------------------------------->
 
-        <section class="certificationClass" id="certificationPage">
+        <section id="certificationsPage" class="page hidden">
             <div class="certificationContent">
                 <h1>None for now</h1>
             </div>
@@ -171,11 +170,27 @@
 
 <!--------------------------------------------------Certifications---------------------------------------------------->
 
-        <section class="neet'OClass" id="neet'OPage">
+        <section id="neet'OPage" class="page hidden">
             <div class="neet'OContent">
                 <h1>None for now</h1>
             </div>
         </section>
-
+        <!--<script src="resumeFunctions.js"></script>-->
+        <script>
+            document.querySelectorAll('.navigation-bar a').forEach(function(link) {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent default navigation behavior
+        
+                    var pageId = this.getAttribute('href').substring(1); // Get the target page ID
+                    var currentPage = document.querySelector('.page:not(.hidden)'); // Get the currently visible page
+        
+                    if (currentPage) {
+                        currentPage.classList.add('hidden'); // Hide the currently visible page
+                    }
+        
+                    document.getElementById(pageId).classList.remove('hidden'); // Show the target page
+                });
+            });
+        </script>
     </div>
 </html>
