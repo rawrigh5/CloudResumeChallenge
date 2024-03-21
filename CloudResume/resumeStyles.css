@@ -1,8 +1,13 @@
-/* ------------------General CSS -------------- */
+/* ----------------------------------General CSS ------------------------------------ */
+html
+{
+  background-color: #000000;
+}
 
-/* CSS for navigation bar */
+
+/* -------------------CSS for navigation bar---------------------------------------- */
 nav {
-    background-color: #333;
+    background-color: rgb(223, 62, 62);
     color: #fff;
     padding: 10px;
 }
@@ -33,10 +38,100 @@ nav ul li a:hover {
 }
 
 
-/* About Me  */
+/* ----------------------------------Explore--------------------------------------  */
+
+.headerExplore
+{
+  font-size: 90pt;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.headerExploreTwo
+{
+  font-size: 70pt;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
+}
+
+
+.fa-arrow-right:before {
+  content: "\f061";
+}
+
+.fa-solid{
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.cta {
+  width: 320px;
+  height: 64px;
+  font-size: 20px;
+  background: #542BEC;
+  color: white;
+}
+
+.button 
+{
+  padding: 16px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 99px;
+}
+
+.coverPhotoExplore
+{
+  width: 600px;
+  height: auto;
+  background-image: image(ResumeImages/Putty_SSH_No_Background.png);
+
+}
+
+
+
+/* ----------------------------------About Me--------------------------------------  */
+
+.name
+{
+  font-size: 75pt;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.coverPhotoAboutMe
+{
+  width: 600px;
+  height: auto;
+}
+.aboutMeParagraph
+{
+  font-size: 30pt;
+}
+
+
 /* ---------------------------------------Resume------------------------------------- */
 
-
+.resumeContent
+{
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #faf8f4;
+  padding: 20px 20px 20px 20px;
+  border: 5px solid black;
+}
 
 .resumeName,.resumeEmail,.resumeAddress
 {

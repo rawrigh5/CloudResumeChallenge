@@ -22,10 +22,16 @@
 <!----------------------------------------------------Landing Page Explore------------------------------------------->
         <section  id="explorePage" class="page">
             <div class="explorePageContent">
-                <h1 class="headerExplore">Hi I'm Rocky!</h1>
+                <h1 class="headerExplore" id="headerExplore"></h1>
                 <h2 class="headerExploreTwo">Welcome to my world in the web</h2>
-                <h3 class="stay">Stay awhile & explore</h3>
-                <img src="ResumeImages/Resume_Cover_Image.jpeg" alt="Cover Photo"
+                <button class="button cta" id="start-button" href="#aboutMePage" style="display: block;">
+                    Explore my world 
+                    <i class="fa-solid fa-arrow-right">
+                        ::before
+                    </i>
+                </button>
+               <img class="coverPhotoExplore" src="ResumeImages/Putty_SSH_No_Background.png" alt="Cover Photo Explore"/>
+               
             </div>
         </section>
 
@@ -34,7 +40,7 @@
         <section id="aboutMePage" class="page hidden">
             <div class="aboutMeContent">
                 <h1 class="name">Rocky Wright</h1>
-                <img src="ResumeImages/Resume_Cover_Image.jpeg" alt="Cover Photo"
+                <img class="coverPhotoAboutMe" src="ResumeImages/Resume_Cover_Image.jpeg" alt="Cover Photo"/>
                 <h2 class="contactInfo">How to reach me</h2>
                 <a title="Email" href="rockywright2015@gmail.com">Email</a>
                 <a title="Linkedin Profile" href="https://www.linkedin.com/in/rockwell-wright-ab1737121?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BC4fyiYvsTVGlVEQXbsij4A%3D%3D">Linkedin Profile</a>
@@ -195,6 +201,34 @@
                     document.getElementById(pageId).classList.remove('hidden'); // Show the target page
                 });
             });
+            
+            
+            document.querySelector("#start-button")
+
+            // Text to be typed
+            var text = "Hi, Im Rocky!";
+
+// Delay between each character (in milliseconds)
+            var delay = 100;
+
+// Index to keep track of which character to display next
+            var index = 0;
+
+// Function to display the next character
+            function headerExplore() {
+                if (index < text.length) {
+    // Append the next character to the div
+                   document.getElementById("headerExplore").innerHTML += text.charAt(index);
+                    index++;
+    // Call typeWriter function recursively after the specified delay
+        setTimeout(headerExplore, delay);
+              }
+            }
+
+// Call the typeWriter function to start typing
+            headerExplore();
+
+
         </script>
     </div>
 </html>
