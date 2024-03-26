@@ -1,7 +1,7 @@
 /* ----------------------------------General CSS ------------------------------------ */
 html
 {
-  background-color: #000000;
+  background-color: #c44141;
 }
 
 
@@ -103,9 +103,33 @@ nav ul li a:hover {
 
 /* ----------------------------------About Me--------------------------------------  */
 
+.aboutMeContent
+{
+
+  width: 1500px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #faf8f4;
+  padding: 20px 20px 20px 20px;
+  border: 5px solid black;
+}
+
+.aboutMeContent img
+{
+  width: 600px;
+  margin-right: 20px;
+}
+
+.aboutMeBox
+{
+  width: 50%;
+  margin: 0 auto;
+}
+
 .name
 {
   font-size: 75pt;
+  text-align: left;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -117,7 +141,7 @@ nav ul li a:hover {
 }
 .aboutMeParagraph
 {
-  font-size: 30pt;
+  font-size: 15pt;
 }
 
 
