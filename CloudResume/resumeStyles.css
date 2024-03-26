@@ -105,7 +105,7 @@ nav ul li a:hover {
 
 .aboutMeContent
 {
-
+  display: flex;
   width: 1500px;
   margin: 0 auto;
   margin-top: 10px;
