@@ -38,19 +38,21 @@
 <!-----------------------------------------------------About Me------------------------------------------------------>
 
         <section id="aboutMePage" class="page hidden">
-            <div class="aboutMeContent">
+            <div class="aboutMeBox">
                 <h1 class="name">Rocky Wright</h1>
                 <img class="coverPhotoAboutMe" src="ResumeImages/Resume_Cover_Image.jpeg" alt="Cover Photo"/>
                 <h2 class="contactInfo">How to reach me</h2>
                 <a title="Email" href="rockywright2015@gmail.com">Email</a>
                 <a title="Linkedin Profile" href="https://www.linkedin.com/in/rockwell-wright-ab1737121?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BC4fyiYvsTVGlVEQXbsij4A%3D%3D">Linkedin Profile</a>
-                <h2 class="aboutMeHeader">About Me!</h2>
-                <p class="aboutMeParagraph">Welcome, I'm Rocky, and i'd like to tell you about my passion for discovery. A passion that pushes me to discover more about myself, technology, people, places, and all the things still unknown to me in this beautiful world we live in.
+                <div class =aboutMeBox></div>
+                    <h2 class="aboutMeHeader">About Me!</h2>
+                    <p class="aboutMeParagraph">Welcome, I'm Rocky, and i'd like to tell you about my passion for discovery. A passion that pushes me to discover more about myself, technology, people, places, and all the things still unknown to me in this beautiful world we live in.
                     T.S Eliot once said, "Only those who will risk going too far can possibly find out how far one can really go".
                     With that in mind, I have decided to push myself and create this website using HTML, CSS, and JavaScript in combination with AWS.
                     To discover and build upon my own capabilities while also giving a piece of what I've discovered throughout my life back to those who decide to discover more about me while exploring my website.
                     Thankyou and stay awhile
-                </p>
+                    </p>
+                </div>
             </div>  
         </section>
  
@@ -208,19 +210,19 @@
             // Text to be typed
             var text = "Hi, Im Rocky!";
 
-// Delay between each character (in milliseconds)
+            // Delay between each character (in milliseconds)
             var delay = 100;
 
-// Index to keep track of which character to display next
+            // Index to keep track of which character to display next
             var index = 0;
 
-// Function to display the next character
+            // Function to display the next character
             function headerExplore() {
                 if (index < text.length) {
-    // Append the next character to the div
+            // Append the next character to the div
                    document.getElementById("headerExplore").innerHTML += text.charAt(index);
                     index++;
-    // Call typeWriter function recursively after the specified delay
+            // Call typeWriter function recursively after the specified delay
         setTimeout(headerExplore, delay);
               }
             }
