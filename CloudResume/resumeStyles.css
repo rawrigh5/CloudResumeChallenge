@@ -114,16 +114,11 @@ nav ul li a:hover {
   border: 5px solid black;
 }
 
+
 .aboutMeContent img
 {
   width: 600px;
   margin-right: 20px;
-}
-
-.aboutMeBox
-{
-  width: 50%;
-  margin: 0 auto;
 }
 
 .name
@@ -291,4 +286,32 @@ nav ul li a:hover {
 
 /* ------------------------------------------------------------------------------------Education------------------------------------------------------------  */
 /* ------------------------------------------------------------------------------------Certifications------------------------------------------------  */
+
+.certificationContent
+{
+  display: flex;
+  width: 1500px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #faf8f4;
+  padding: 20px 20px 20px 20px;
+  border: 5px solid black;
+}
+
 /* ------------------------------------------------------------------------------------Neet'O------------------------------------------------------------------------  */
+.neetOContent
+{
+  display: flex;
+  width: 1500px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #faf8f4;
+  padding: 20px 20px 20px 20px;
+  border: 5px solid black;
+}
+
+.neetOContent img
+{
+  width: 600px;
+  margin-right: 20px;
+}
