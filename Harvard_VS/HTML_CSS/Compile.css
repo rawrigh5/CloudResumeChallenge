@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Variables</title>
+        <style>
+            ul{
+                font-size: 14px;
+                color:blue
+            }
+            ol{
+                font-size: 14px;
+                color:blue
+            }
+        </style>
+    <body>
+        <ul>
+            <li>unorderderd items</li>
+            <li>unordered items</li>
+            <li>unorderderd items</li>
+        </ul>
+        <ol>
+            <li>ordered itmes</li>
+            <li>ordered items</li>
+        </ol>
+    </body>
+    </head>
+</html>
+
+/*Using Sas*/
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Variables</title>
+/*In order to use this we need to compile the scss file into css. This requires a new*/
+        <link rel="stylesheet" href="variables.css"
+    <body>
+        <ul>
+            <li>unorderderd items</li>
+            <li>unordered items</li>
+            <li>unorderderd items</li>
+        </ul>
+        <ol>
+            <li>ordered itmes</li>
+            <li>ordered items</li>
+        </ol>
+    </body>
+    </head>
+</html>
